@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/JaveedIshaq/ng-dev-folio
+   git clone https://github.com/med-mrabet/med-portfolio
    cd ng-dev-folio
    ```
 
