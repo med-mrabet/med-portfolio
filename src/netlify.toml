@@ -1,0 +1,8 @@
+[build]
+  command = "npm i --force && npm run build --prod"
+  publish = "dist/ngdevfolio/browser"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
