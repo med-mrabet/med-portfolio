@@ -81,8 +81,6 @@ export class ContactFormComponent implements OnInit {
         'g-recaptcha-response': token
       };
 
-      console.log(process.env['EMAILJS_SERVICE_ID'])
-
       await emailjs.send(
         environment.emailJs.serviceId,
         environment.emailJs.templateId,
