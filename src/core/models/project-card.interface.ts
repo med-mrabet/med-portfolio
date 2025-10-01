@@ -3,4 +3,5 @@ export interface ProjectCard {
     tools: string[];
     role: string;
     description: string;
+    achievements:string
 }

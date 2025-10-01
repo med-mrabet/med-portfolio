@@ -11,7 +11,8 @@ interface Project {
     code: string;
     demo: string;
     image: string;
-    role: string;
+  role: string;
+  achievements: string;
 }
 
 export const projects: Project[] = [
@@ -23,7 +24,8 @@ export const projects: Project[] = [
         code: "",
         demo: "",
         image: "assets/images/projects/crunch-africa.webp",
-        role: "Full stack .NET Angular",
+    role: "Full stack .NET Angular",
+    achievements:"Reduce query time by using stored procedure;"
     },
     {
         id: 2,
@@ -33,7 +35,9 @@ export const projects: Project[] = [
         code: "",
         demo: "",
         image: "assets/images/projects/akyurt-online.webp",
-        role: "Full stack .NET Angular",
+      role: "Full stack .NET Angular",
+      achievements: "Add B2C Authentication ,Refont of whole interface;"
+
     },
     {
         id: 3,
@@ -44,6 +48,8 @@ export const projects: Project[] = [
         demo: "",
         image: "assets/images/projects/baredex.webp",
       role: "Full stack .NET Angular",
+      achievements: "Optimized page load speed by 40% "
+
     },
     {
         id: 4,
@@ -53,7 +59,9 @@ export const projects: Project[] = [
         code: "",
         demo: "",
         image: "assets/images/projects/mocowi.webp",
-        role: ".NET Blazor / .NET Azure Function Developer ",
+      role: ".NET Blazor / .NET Azure Function Developer ",
+      achievements: "Manage sharing data between azure function and blazor app;review the code to mantain a clean deployed code"
+
     },
     {
         id: 5,
@@ -63,7 +71,9 @@ export const projects: Project[] = [
         code: "",
         demo: "",
         image: "assets/images/projects/sabroso-logo.jpg",
-        role: "Fullstack .Net/Angular Developer",
+      role: "Fullstack .Net/Angular Developer",
+      achievements: "Improve the use of unit test by 60%;"
+
     },
     {
         id: 6,
@@ -73,7 +83,9 @@ export const projects: Project[] = [
         code: "",
         demo: "",
         image: "assets/images/projects/sigma-app.png",
-        role: "Intern",
+      role: "Intern",
+      achievements: "Improve the responsive design by 50%"
+
     },
     //{
     //    id: 7,

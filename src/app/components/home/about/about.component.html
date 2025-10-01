@@ -10,8 +10,8 @@
             <p class="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
                 Who I am?
             </p>
-            <p class="text-gray-200 text-sm lg:text-lg">
-                {{ personalData.description }}
+            <p class="text-gray-200 text-sm lg:text-lg" [innerHtml]="personalData.description">
+                <!--{{ personalData.description }}-->
             </p>
         </div>
         <div class="flex justify-center order-1 lg:order-2 h-[280px] min-h-[280px]">
